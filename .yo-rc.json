@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.hugl.web",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.10.1",
+    "applicationType": "microservice",
+    "baseName": "publish",
+    "packageName": "com.hugl.web",
+    "packageFolder": "com/hugl/web",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "redis",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZWFmYThiZTIwNzRjMjFlMWY1MWZkMjkzNzE3YjYyZGE1YmE3NzEyNDMyZjk0YWQwMzFjNzdlMmNjZTgwNDY1ZmMwZjgzYjhiMjkxNGI4Mjc1M2JhZWVmNzQyNDVjNWFmZDJiZjA1ZmVkMTJlZGY3Y2EzNWIxZDZjMzNlMmUyNzI=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1594116103934,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": ["en"],
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
