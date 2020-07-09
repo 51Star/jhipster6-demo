@@ -1,0 +1,46 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "publish",
+  "relationships": [
+    {
+      "relationshipName": "member",
+      "otherEntityName": "member",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": [],
+      "otherEntityField": "id",
+      "otherEntityRelationshipName": "publish"
+    }
+  ],
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "picUrl1",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "picUrl2",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "picUrl3",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "picUrl4",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20200709074326",
+  "dto": "mapstruct",
+  "searchEngine": false,
+  "service": "serviceImpl",
+  "entityTableName": "publish",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": true,
+  "pagination": "pagination",
+  "microserviceName": "publish"
+}

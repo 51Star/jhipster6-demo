@@ -1,0 +1,37 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "publish",
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "nickname",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "mpic",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "openid",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "updatedTime",
+      "fieldType": "Instant"
+    }
+  ],
+  "changelogDate": "20200709074059",
+  "dto": "mapstruct",
+  "searchEngine": false,
+  "service": "serviceImpl",
+  "entityTableName": "member",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": true,
+  "pagination": "pagination",
+  "microserviceName": "publish"
+}
